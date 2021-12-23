@@ -8,19 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Exercise_1
+namespace Exercise_2
 {
     public partial class Form1 : Form
     {
         public Form1()
         {
             InitializeComponent();
-        }
-
-        private void btnOutput_Click(object sender, EventArgs e)
-        {
-            //Print Hallo en op de volgende regel mijn naam
-            txtBox.Text = "Hallo! " + Environment.NewLine +  "Ik ben Marco.";
         }
     }
 }
